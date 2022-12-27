@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Taj Mahal",
+    "lat": "27.1751448",
+    "lng": "78.0399535",
+    "place-id": ""
+  },
+  {
+    "name": "Golden Temple",
+    "lat": "31.6216888",
+    "lng": "74.8763571",
+    "place-id": ""
+  },
+  {
+    "name": "Red Fort",
+    "lat": "28.6561592",
+    "lng": "77.2388316",
+    "place-id": ""
+  },
+  {
+    "name": "Ooty",
+    "lat": "11.4118439",
+    "lng": "76.6216609",
+    "place-id": ""
+  },
+  {
+    "name": "Shree Somnath Jyotirling Temple",
+    "lat": "20.8880169",
+    "lng": "70.3988135",
+    "place-id": ""
+  },
+  {
+    "name": "Qutub Minar",
+    "lat": "28.5244754",
+    "lng": "77.1833319",
+    "place-id": ""
+  }
+]

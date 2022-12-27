@@ -57,9 +57,6 @@ function App() {
   return (
     <>
       <div className="m-5">
-        <Alert key={"info"} variant={"info"}>
-          <span className="fw-bold fs-5">Google Map Api - Default Map</span>
-        </Alert>
         <RouterProvider router={router} />
       </div>
     </>
