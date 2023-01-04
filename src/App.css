@@ -376,3 +376,20 @@
 .cursor-pointer {
   cursor: pointer;
 }
+
+.map_legend {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 12px;
+  top: 200px;
+  right: 50px;
+  display: flex;
+  z-index: 99;
+}
+
+.map_legend_point {
+  display: flex;
+  /* margin-right: 10px; */
+  font-size: 12px;
+  line-height: 17px;
+}

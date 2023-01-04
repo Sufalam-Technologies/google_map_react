@@ -33,7 +33,7 @@ function App() {
       element: <TypesMap />
     },
     {
-      path: "/map/locale",
+      path: "/map/locale/:id",
       element: <LocaleMap />
     },
     {

@@ -44,7 +44,7 @@ const Dashboard = ({}) => {
             "Specify a region code, which alters the map's behavior based on a given country or territory."
           }
           onClickOfPositiveButton={() => {
-            history("/map/locale");
+            history("/map/locale/1");
           }}
         />
       </Stack>
