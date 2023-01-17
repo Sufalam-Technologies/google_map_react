@@ -1,6 +1,6 @@
-const TOTAL_COUNT = 100;
+const TOTAL_COUNT = 500;
 
-export const susolvkaCoords = { lat: 60.814305, lng: 47.051773 };
+export const susolvkaCoords = { lat: 23.0104071, lng: 72.5050071 };
 
 export const markersData = [...Array(TOTAL_COUNT)]
   .fill(0) // fill(0) for loose mode

@@ -1,8 +1,9 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-function Spy({ scale }) {
+function Spy(props) {
   const styles = {
-    transform: `scale(${scale})`
+    transform: `scale(${props.scale})`,
   };
 
   return (
@@ -21,5 +22,9 @@ function Spy({ scale }) {
     </svg>
   );
 }
+
+Spy.propTypes = {
+  scale: PropTypes.string,
+};
 
 export default Spy;

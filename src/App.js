@@ -1,16 +1,15 @@
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Dashboard from "./dashboard/Dashboard";
-import { Alert } from "react-bootstrap";
 import DefaultMap from "./dashboard/DefaultMap/DefaultMap";
 import MarkerMap from "./dashboard/Custom Marker/MarkerMap";
 import TypesMap from "./dashboard/Map Types/TypesMap";
 import LocaleMap from "./dashboard/Locale Map/LocaleMap";
-import ClusterMarkerMap from "./dashboard/Cluster Marker/ClusterMarkerMap";
 import ShapesMap from "./dashboard/Shape Map/ShapesMap";
 import BoundariesMap from "./dashboard/Boundaries Map/BoundariesMap";
 import InfoWindowMap from "./dashboard/InfoWindow Map/InfoWindowMap";
 import ErrorBoundary from "./Error/ErrorBoundary";
+import GoogleMap from "./dashboard/Cluster Marker/components/GoogleMap";
 
 function App() {
   const router = createBrowserRouter([
@@ -38,7 +37,7 @@ function App() {
     },
     {
       path: "/map/cluster-marker",
-      element: <ClusterMarkerMap />
+      element: <GoogleMap />
     },
     {
       path: "/map/shapes",

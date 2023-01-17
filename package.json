@@ -14,6 +14,7 @@
     "bootstrap-icons": "^1.10.2",
     "dotenv": "^16.0.3",
     "google-map-react": "^2.2.0",
+    "immutable": "^4.2.2",
     "points-cluster": "^0.1.4",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",

@@ -393,3 +393,33 @@
   font-size: 12px;
   line-height: 17px;
 }
+
+.cluster {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #2596be;
+  left: 50%;
+  top: 50%;
+  -webkit-animation-name: bounce;
+  -moz-animation-name: bounce;
+  -o-animation-name: bounce;
+  -ms-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.cluster-text {
+  height: 100%;
+  font-weight: 700;
+  transform: rotate(45deg);
+}
